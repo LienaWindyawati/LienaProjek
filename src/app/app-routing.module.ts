@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { ForgotComponent } from './folder1/forgot/forgot.component';
 import { LoginComponent } from './folder1/login/login.component';
 import { RegisterComponent } from './folder1/register/register.component';
+import { StartComponent } from './folder1/start/start.component';
 
 const routes: Routes = [
 {
@@ -18,9 +19,13 @@ const routes: Routes = [
   component:ForgotComponent
 },
 {
+  path:'start',
+  component:StartComponent
+},
+{
   path:'',
   pathMatch:'full',
-  redirectTo:'/login'
+  redirectTo:'/start'
 }
 ];
 

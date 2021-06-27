@@ -8,6 +8,7 @@ import { RegisterComponent } from './folder1/register/register.component';
 import { ForgotComponent } from './folder1/forgot/forgot.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialDesign } from './material/material';
+import { StartComponent } from './folder1/start/start.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { MaterialDesign } from './material/material';
     AppComponent,
     LoginComponent,
     RegisterComponent,
-    ForgotComponent
+    ForgotComponent,
+    StartComponent
   ],
   imports: [
     BrowserModule,
