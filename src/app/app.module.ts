@@ -9,6 +9,10 @@ import { ForgotComponent } from './folder1/forgot/forgot.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialDesign } from './material/material';
 import { StartComponent } from './folder1/start/start.component';
+import { DashboardComponent } from './folder1/dashboard/dashboard.component';
+import { DataclientComponent } from './folder1/dataclient/dataclient.component';
+import { InputclientComponent } from './folder1/inputclient/inputclient.component';
+import {HttpClientModule} from "@angular/common/http";
 
 
 @NgModule({
@@ -17,13 +21,17 @@ import { StartComponent } from './folder1/start/start.component';
     LoginComponent,
     RegisterComponent,
     ForgotComponent,
-    StartComponent
+    StartComponent,
+    DashboardComponent,
+    DataclientComponent,
+    InputclientComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialDesign
+    MaterialDesign,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
